@@ -14,6 +14,7 @@
 		6FBEF4C927AFA2D300C85FBB /* DiffingTestsuiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4C827AFA2D300C85FBB /* DiffingTestsuiteTests.swift */; };
 		6FBEF4D327AFA2D300C85FBB /* DiffingTestsuiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4D227AFA2D300C85FBB /* DiffingTestsuiteUITests.swift */; };
 		6FBEF4D527AFA2D300C85FBB /* DiffingTestsuiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4D427AFA2D300C85FBB /* DiffingTestsuiteUITestsLaunchTests.swift */; };
+		6FBEF4E427AFA5F700C85FBB /* Differ in Frameworks */ = {isa = PBXBuildFile; productRef = 6FBEF4E327AFA5F700C85FBB /* Differ */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FBEF4E427AFA5F700C85FBB /* Differ in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 		6FBEF4B527AFA2D200C85FBB /* DiffingTestsuite */ = {
 			isa = PBXGroup;
 			children = (
+				6FBEF4E127AFA30500C85FBB /* Differs */,
 				6FBEF4B627AFA2D200C85FBB /* AppDelegate.swift */,
 				6FBEF4B827AFA2D200C85FBB /* ViewController.swift */,
 				6FBEF4BA27AFA2D300C85FBB /* Assets.xcassets */,
@@ -121,6 +124,13 @@
 			path = DiffingTestsuiteUITests;
 			sourceTree = "<group>";
 		};
+		6FBEF4E127AFA30500C85FBB /* Differs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Differs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +147,9 @@
 			dependencies = (
 			);
 			name = DiffingTestsuite;
+			packageProductDependencies = (
+				6FBEF4E327AFA5F700C85FBB /* Differ */,
+			);
 			productName = DiffingTestsuite;
 			productReference = 6FBEF4B327AFA2D200C85FBB /* DiffingTestsuite.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 6FBEF4AA27AFA2D200C85FBB;
+			packageReferences = (
+				6FBEF4E227AFA5F700C85FBB /* XCRemoteSwiftPackageReference "Differ" */,
+			);
 			productRefGroup = 6FBEF4B427AFA2D200C85FBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -581,6 +597,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6FBEF4E227AFA5F700C85FBB /* XCRemoteSwiftPackageReference "Differ" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tonyarnold/Differ.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6FBEF4E327AFA5F700C85FBB /* Differ */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FBEF4E227AFA5F700C85FBB /* XCRemoteSwiftPackageReference "Differ" */;
+			productName = Differ;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6FBEF4AB27AFA2D200C85FBB /* Project object */;
 }
