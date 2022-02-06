@@ -9,7 +9,11 @@ import Differ
 import XCTest
 
 class DifferMassTests: XCTestCase {
-    func differ(start: [Int], end: [Int]) -> [Int] {
+    private func makeArray(maxSize: Int, maxNumber: Int) -> [Int] {
+        return Array(repeating: 0, count: Int.random(in: 0 ... maxSize)).map { _ in Int.random(in: 0 ... maxNumber) }
+    }
+
+    private func differ(start: [Int], end: [Int]) -> [Int] {
         let patches = Differ.extendedPatch(from: start, to: end)
         var workingSet = start
 
@@ -51,6 +55,12 @@ class DifferMassTests: XCTestCase {
     //        let result = differ(start: start, end: target)
     //        XCTAssertEqual(result, target)
     //    }
+    
+    func testDifferScenario1() throws {
+        let output = [4, 4, 3, 8, 9, 5, 2, 5]
+        let result = differ(start: [7, 2, 5, 6, 9], end: output)
+        XCTAssertEqual(output, result)
+    }
 
     func testDifferRandom() throws {
         let NUMBER_OF_TESTS = 10000
@@ -77,9 +87,5 @@ class DifferMassTests: XCTestCase {
 
             XCTAssertEqual(output, result)
         }
-    }
-
-    func makeArray(maxSize: Int, maxNumber: Int) -> [Int] {
-        return Array(repeating: 0, count: Int.random(in: 0 ... maxSize)).map { _ in Int.random(in: 0 ... maxNumber) }
     }
 }
