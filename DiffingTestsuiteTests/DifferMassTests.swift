@@ -24,8 +24,9 @@ class DifferMassTests: XCTestCase {
                 workingSet.remove(at: index)
                 print(workingSet)
             case let .move(from: from, to: to):
+                print("MOVE number from", from, to, workingSet)
                 let val = workingSet[from]
-                print("MOVE number \(workingSet[from]) from", from, to, workingSet)
+                print(val)
                 workingSet.remove(at: from)
                 workingSet.insert(val, at: to)
                 print(workingSet)
