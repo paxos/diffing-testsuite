@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F04633B27B04A6D0062425C /* DifferMassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04633A27B04A6D0062425C /* DifferMassTests.swift */; };
+		6F04633B27B04A6D0062425C /* DifferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04633A27B04A6D0062425C /* DifferTests.swift */; };
+		6F04633D27B05E8A0062425C /* DeepDiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04633C27B05E8A0062425C /* DeepDiffTests.swift */; };
+		6F04634027B05EEA0062425C /* DeepDiff in Frameworks */ = {isa = PBXBuildFile; productRef = 6F04633F27B05EEA0062425C /* DeepDiff */; };
+		6F04634227B064AA0062425C /* CollectionDiffingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04634127B064AA0062425C /* CollectionDiffingTests.swift */; };
+		6F04634827B072BB0062425C /* FastDiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04634727B072BB0062425C /* FastDiffTests.swift */; };
+		6F04634B27B073180062425C /* FastDiff in Frameworks */ = {isa = PBXBuildFile; productRef = 6F04634A27B073180062425C /* FastDiff */; };
 		6FBEF4B727AFA2D200C85FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4B627AFA2D200C85FBB /* AppDelegate.swift */; };
 		6FBEF4B927AFA2D200C85FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4B827AFA2D200C85FBB /* ViewController.swift */; };
 		6FBEF4BB27AFA2D300C85FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEF4BA27AFA2D300C85FBB /* Assets.xcassets */; };
 		6FBEF4BE27AFA2D300C85FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEF4BC27AFA2D300C85FBB /* Main.storyboard */; };
-		6FBEF4C927AFA2D300C85FBB /* DiffingTestsuiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4C827AFA2D300C85FBB /* DiffingTestsuiteTests.swift */; };
+		6FBEF4C927AFA2D300C85FBB /* AppleDiffingTestsuiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4C827AFA2D300C85FBB /* AppleDiffingTestsuiteTests.swift */; };
 		6FBEF4D327AFA2D300C85FBB /* DiffingTestsuiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4D227AFA2D300C85FBB /* DiffingTestsuiteUITests.swift */; };
 		6FBEF4D527AFA2D300C85FBB /* DiffingTestsuiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEF4D427AFA2D300C85FBB /* DiffingTestsuiteUITestsLaunchTests.swift */; };
 		6FBEF4E427AFA5F700C85FBB /* Differ in Frameworks */ = {isa = PBXBuildFile; productRef = 6FBEF4E327AFA5F700C85FBB /* Differ */; };
@@ -36,7 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F04633A27B04A6D0062425C /* DifferMassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferMassTests.swift; sourceTree = "<group>"; };
+		6F04633A27B04A6D0062425C /* DifferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferTests.swift; sourceTree = "<group>"; };
+		6F04633C27B05E8A0062425C /* DeepDiffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDiffTests.swift; sourceTree = "<group>"; };
+		6F04634127B064AA0062425C /* CollectionDiffingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDiffingTests.swift; sourceTree = "<group>"; };
+		6F04634727B072BB0062425C /* FastDiffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastDiffTests.swift; sourceTree = "<group>"; };
 		6FBEF4B327AFA2D200C85FBB /* DiffingTestsuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffingTestsuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBEF4B627AFA2D200C85FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FBEF4B827AFA2D200C85FBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +52,7 @@
 		6FBEF4BD27AFA2D300C85FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FBEF4BF27AFA2D300C85FBB /* DiffingTestsuite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiffingTestsuite.entitlements; sourceTree = "<group>"; };
 		6FBEF4C427AFA2D300C85FBB /* DiffingTestsuiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffingTestsuiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FBEF4C827AFA2D300C85FBB /* DiffingTestsuiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffingTestsuiteTests.swift; sourceTree = "<group>"; };
+		6FBEF4C827AFA2D300C85FBB /* AppleDiffingTestsuiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDiffingTestsuiteTests.swift; sourceTree = "<group>"; };
 		6FBEF4CE27AFA2D300C85FBB /* DiffingTestsuiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffingTestsuiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBEF4D227AFA2D300C85FBB /* DiffingTestsuiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffingTestsuiteUITests.swift; sourceTree = "<group>"; };
 		6FBEF4D427AFA2D300C85FBB /* DiffingTestsuiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffingTestsuiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -56,6 +64,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBEF4E427AFA5F700C85FBB /* Differ in Frameworks */,
+				6F04634B27B073180062425C /* FastDiff in Frameworks */,
+				6F04634027B05EEA0062425C /* DeepDiff in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +115,7 @@
 				6FBEF4BA27AFA2D300C85FBB /* Assets.xcassets */,
 				6FBEF4BC27AFA2D300C85FBB /* Main.storyboard */,
 				6FBEF4BF27AFA2D300C85FBB /* DiffingTestsuite.entitlements */,
+				6F04634727B072BB0062425C /* FastDiffTests.swift */,
 			);
 			path = DiffingTestsuite;
 			sourceTree = "<group>";
@@ -112,8 +123,10 @@
 		6FBEF4C727AFA2D300C85FBB /* DiffingTestsuiteTests */ = {
 			isa = PBXGroup;
 			children = (
-				6FBEF4C827AFA2D300C85FBB /* DiffingTestsuiteTests.swift */,
-				6F04633A27B04A6D0062425C /* DifferMassTests.swift */,
+				6FBEF4C827AFA2D300C85FBB /* AppleDiffingTestsuiteTests.swift */,
+				6F04633A27B04A6D0062425C /* DifferTests.swift */,
+				6F04633C27B05E8A0062425C /* DeepDiffTests.swift */,
+				6F04634127B064AA0062425C /* CollectionDiffingTests.swift */,
 			);
 			path = DiffingTestsuiteTests;
 			sourceTree = "<group>";
@@ -152,6 +165,8 @@
 			name = DiffingTestsuite;
 			packageProductDependencies = (
 				6FBEF4E327AFA5F700C85FBB /* Differ */,
+				6F04633F27B05EEA0062425C /* DeepDiff */,
+				6F04634A27B073180062425C /* FastDiff */,
 			);
 			productName = DiffingTestsuite;
 			productReference = 6FBEF4B327AFA2D200C85FBB /* DiffingTestsuite.app */;
@@ -227,6 +242,8 @@
 			mainGroup = 6FBEF4AA27AFA2D200C85FBB;
 			packageReferences = (
 				6FBEF4E227AFA5F700C85FBB /* XCRemoteSwiftPackageReference "Differ" */,
+				6F04633E27B05EEA0062425C /* XCRemoteSwiftPackageReference "DeepDiff" */,
+				6F04634927B073180062425C /* XCRemoteSwiftPackageReference "FastDiff" */,
 			);
 			productRefGroup = 6FBEF4B427AFA2D200C85FBB /* Products */;
 			projectDirPath = "";
@@ -279,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FBEF4C927AFA2D300C85FBB /* DiffingTestsuiteTests.swift in Sources */,
-				6F04633B27B04A6D0062425C /* DifferMassTests.swift in Sources */,
+				6FBEF4C927AFA2D300C85FBB /* AppleDiffingTestsuiteTests.swift in Sources */,
+				6F04634227B064AA0062425C /* CollectionDiffingTests.swift in Sources */,
+				6F04633D27B05E8A0062425C /* DeepDiffTests.swift in Sources */,
+				6F04633B27B04A6D0062425C /* DifferTests.swift in Sources */,
+				6F04634827B072BB0062425C /* FastDiffTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +623,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6F04633E27B05EEA0062425C /* XCRemoteSwiftPackageReference "DeepDiff" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onmyway133/DeepDiff.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6F04634927B073180062425C /* XCRemoteSwiftPackageReference "FastDiff" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kandelvijaya/FastDiff.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		6FBEF4E227AFA5F700C85FBB /* XCRemoteSwiftPackageReference "Differ" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tonyarnold/Differ.git";
@@ -614,6 +650,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6F04633F27B05EEA0062425C /* DeepDiff */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F04633E27B05EEA0062425C /* XCRemoteSwiftPackageReference "DeepDiff" */;
+			productName = DeepDiff;
+		};
+		6F04634A27B073180062425C /* FastDiff */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F04634927B073180062425C /* XCRemoteSwiftPackageReference "FastDiff" */;
+			productName = FastDiff;
+		};
 		6FBEF4E327AFA5F700C85FBB /* Differ */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6FBEF4E227AFA5F700C85FBB /* XCRemoteSwiftPackageReference "Differ" */;

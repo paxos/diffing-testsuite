@@ -7,41 +7,128 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "41E85002-7F5B-48A5-AD8C-DDADF1EE9694"
-            shouldBeEnabled = "No"
+            uuid = "D88F1628-2C1C-449C-B1FD-8AE4C44DB41F"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DiffingTestsuiteTests/DiffingTestsuiteTests.swift"
+            filePath = "DiffingTestsuiteTests/CollectionDiffingTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "moves(start:end:diff:)"
-            landmarkType = "9">
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "runAppleCollectionDiff(start:end:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EA4E0B40-F251-4630-95CA-1AF231D8F9CD"
+            uuid = "E6422D3C-AACE-4766-B0C5-856723DAA87D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            breakpointStackSelectionBehavior = "1"
-            scope = "1"
-            stopOnStyle = "0">
+            filePath = "DiffingTestsuite/FastDiffTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "runFastDiff(start:end:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6422D3C-AACE-4766-B0C5-856723DAA87D - cf1607bf7b77ef96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.FastDiffTests.runFastDiff&lt;&#x3c4;_0_0 where &#x3c4;_0_0: FastDiff.Diffable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuite/FastDiffTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "2788">
+               </Location>
+               <Location
+                  uuid = "E6422D3C-AACE-4766-B0C5-856723DAA87D - cf1607bf7b77ef96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.FastDiffTests.runFastDiff&lt;&#x3c4;_0_0 where &#x3c4;_0_0: FastDiff.Diffable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuite/FastDiffTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "2740">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "42673BC8-7425-41F8-AA67-C1695D978E20"
+            uuid = "CB7F6EC6-88A3-4177-8AC9-59E1601B222E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            breakpointStackSelectionBehavior = "1"
-            scope = "1"
-            stopOnStyle = "0">
+            filePath = "DiffingTestsuiteTests/DifferTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "runDiffer(start:end:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB7F6EC6-88A3-4177-8AC9-59E1601B222E - f3774f8950c8f8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.DifferMassTests.runDiffer&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Equatable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "2344">
+               </Location>
+               <Location
+                  uuid = "CB7F6EC6-88A3-4177-8AC9-59E1601B222E - f3774f8950c8f8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.DifferMassTests.runDiffer&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Equatable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1580">
+               </Location>
+               <Location
+                  uuid = "CB7F6EC6-88A3-4177-8AC9-59E1601B222E - f3774f8950c8f8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.DifferMassTests.runDiffer&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Equatable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1300">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

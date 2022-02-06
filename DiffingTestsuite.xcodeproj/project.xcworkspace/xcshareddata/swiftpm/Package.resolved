@@ -2,11 +2,38 @@
   "object": {
     "pins": [
       {
+        "package": "AlgoChecker",
+        "repositoryURL": "git@github.com:kandelvijaya/AlgorithmChecker.git",
+        "state": {
+          "branch": null,
+          "revision": "3c786303ec2cdd0018b77f1597d6e38e0448039a",
+          "version": "0.1.5"
+        }
+      },
+      {
+        "package": "DeepDiff",
+        "repositoryURL": "https://github.com/onmyway133/DeepDiff.git",
+        "state": {
+          "branch": "master",
+          "revision": "2639b3a11054d666a4c5ec1b7dd2808e437f3289",
+          "version": null
+        }
+      },
+      {
         "package": "Differ",
         "repositoryURL": "https://github.com/tonyarnold/Differ.git",
         "state": {
           "branch": "main",
           "revision": "3e1835cde69f018cfed57e82ef20b2eb72b13aeb",
+          "version": null
+        }
+      },
+      {
+        "package": "FastDiff",
+        "repositoryURL": "https://github.com/kandelvijaya/FastDiff.git",
+        "state": {
+          "branch": "master",
+          "revision": "494b22adee2eaa022bad5122bdf776bea234afb9",
           "version": null
         }
       }
