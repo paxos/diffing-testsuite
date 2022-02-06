@@ -5,31 +5,80 @@
 //  Created by Patrick Dinger on 2/6/22.
 //
 
+import Differ
 import XCTest
 
 class DifferMassTests: XCTestCase {
+    func differ(start: [Int], end: [Int]) -> [Int] {
+        let patches = Differ.extendedPatch(from: start, to: end)
+        var workingSet = start
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        for patch in patches {
+            switch patch {
+            case let .insertion(index: index, element: element):
+                print("INSERT \(element) at", index)
+                workingSet.insert(element, at: index)
+                print(workingSet)
+            case let .deletion(index: index):
+                print("REMOVE \(workingSet[index]) at", index)
+                workingSet.remove(at: index)
+                print(workingSet)
+            case let .move(from: from, to: to):
+                let val = workingSet[from]
+                print("MOVE number \(workingSet[from]) from", from, to, workingSet)
+                workingSet.remove(at: from)
+                workingSet.insert(val, at: to)
+                print(workingSet)
+            }
+        }
+
+        return workingSet
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    //    func testExample3() throws {
+    //        let start = [18, 19, 11]
+    //        let target = [11, 19]
+    //
+    //        let result = differ(start: start, end: target)
+    //        XCTAssertEqual(result, target)
+    //    }
+    //
+    //    func testExample4() throws {
+    //        let start = [18, 18, 19, 11]
+    //        let target = [11, 19]
+    //
+    //        let result = differ(start: start, end: target)
+    //        XCTAssertEqual(result, target)
+    //    }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+    func testDifferRandom() throws {
+        let NUMBER_OF_TESTS = 10000
+        let MAX_SIZE = 10
+        let MAX_NUMBER = 10
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        var testPairs: [[[Int]]] = []
+
+        for _ in 1 ... NUMBER_OF_TESTS {
+            let b = [makeArray(maxSize: MAX_SIZE, maxNumber: MAX_NUMBER), makeArray(maxSize: MAX_SIZE, maxNumber: MAX_NUMBER)]
+            testPairs.append(b)
+        }
+
+        // Run tests
+        testPairs.forEach { testPair in
+            let input = testPair[0]
+            let output = testPair[1]
+
+            print("-------------------------------------")
+            print("Input: \(input), Output: \(output)")
+
+            let result = differ(start: input, end: output)
+            print("Result: \(result)")
+
+            XCTAssertEqual(output, result)
         }
     }
 
+    func makeArray(maxSize: Int, maxNumber: Int) -> [Int] {
+        return Array(repeating: 0, count: Int.random(in: 0 ... maxSize)).map { _ in Int.random(in: 0 ... maxNumber) }
+    }
 }
