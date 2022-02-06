@@ -13,7 +13,7 @@ class DifferMassTests: XCTestCase {
         return Array(repeating: 0, count: Int.random(in: 0 ... maxSize)).map { _ in Int.random(in: 0 ... maxNumber) }
     }
 
-    private func differ(start: [Int], end: [Int]) -> [Int] {
+    private func runDiffer<T: Equatable>(start: [T], end: [T]) -> [T] {
         let patches = Differ.extendedPatch(from: start, to: end)
         var workingSet = start
 
@@ -58,7 +58,13 @@ class DifferMassTests: XCTestCase {
     
     func testDifferScenario1() throws {
         let output = [4, 4, 3, 8, 9, 5, 2, 5]
-        let result = differ(start: [7, 2, 5, 6, 9], end: output)
+        let result = runDiffer(start: [7, 2, 5, 6, 9], end: output)
+        XCTAssertEqual(output, result)
+    }
+    
+    func testDifferScenario1AsString() throws {
+        let output = ["4", "4", "3", "8", "9", "5", "2", "5"]
+        let result = runDiffer(start: ["7", "2", "5", "6", "9"], end: output)
         XCTAssertEqual(output, result)
     }
 
@@ -82,7 +88,7 @@ class DifferMassTests: XCTestCase {
             print("-------------------------------------")
             print("Input: \(input), Output: \(output)")
 
-            let result = differ(start: input, end: output)
+            let result = runDiffer(start: input, end: output)
             print("Result: \(result)")
 
             XCTAssertEqual(output, result)
