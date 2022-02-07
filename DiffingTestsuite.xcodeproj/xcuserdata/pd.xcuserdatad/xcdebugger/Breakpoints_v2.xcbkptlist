@@ -128,6 +128,225 @@
                   endingLineNumber = "35"
                   offsetFromSymbolStart = "1300">
                </Location>
+               <Location
+                  uuid = "CB7F6EC6-88A3-4177-8AC9-59E1601B222E - f3774f8950c8f8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.DifferMassTests.runDiffer&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Equatable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "2356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68C5D99C-28C8-4CA0-9304-9FAC6A87B673"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffingTestsuiteTests/DifferenceKitTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "runDifferenceKit(start:end:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "68C5D99C-28C8-4CA0-9304-9FAC6A87B673 - 77116cd95f05dbd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "68C5D99C-28C8-4CA0-9304-9FAC6A87B673 - 77116cd95f05dbd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "68C5D99C-28C8-4CA0-9304-9FAC6A87B673 - 77116cd95f05dabf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "68C5D99C-28C8-4CA0-9304-9FAC6A87B673 - 77116cd95f05dabf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6EAAE5E-A781-49E6-B753-A2C9BA4C6486"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffingTestsuiteTests/DifferenceKitTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "runDifferenceKit(start:end:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F6EAAE5E-A781-49E6-B753-A2C9BA4C6486 - 1c59f6377a56a70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (DifferenceKit.ElementPath) -&gt; () in DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "F6EAAE5E-A781-49E6-B753-A2C9BA4C6486 - 1c59f6377a5696b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (DifferenceKit.ElementPath) -&gt; () in DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "F6EAAE5E-A781-49E6-B753-A2C9BA4C6486 - 1c59f6377a5696b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (DifferenceKit.ElementPath) -&gt; () in DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D490E285-C23A-4D29-B28A-3A080C9A05F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffingTestsuiteTests/DifferenceKitTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "runDifferenceKit(start:end:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D490E285-C23A-4D29-B28A-3A080C9A05F8 - 77116cd95f05dbb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "D490E285-C23A-4D29-B28A-3A080C9A05F8 - 77116cd95f05da90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "D490E285-C23A-4D29-B28A-3A080C9A05F8 - 77116cd95f05da90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiffingTestsuiteTests.runDifferenceKit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: DifferenceKit.ContentEquatable, &#x3c4;_0_0: DifferenceKit.ContentIdentifiable&gt;(start: Swift.Array&lt;&#x3c4;_0_0&gt;, end: Swift.Array&lt;&#x3c4;_0_0&gt;) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DiffingTestsuiteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pd/Developer/work-local/DiffingTestsuite/DiffingTestsuiteTests/DifferenceKitTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "272">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
